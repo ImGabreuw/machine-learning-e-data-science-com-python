@@ -90,16 +90,3 @@ Vamos calcular a probabilidade de cada valor dos atributos para cada classe de r
 
 - Probabilidade de ter Muito Bom Histórico de Crédito: $P(\text{Muito Bom}|\text{Alto}) = \frac{7}{8} = 0.875$
 
-**Passo 3: Predição do risco de crédito para um novo exemplo**
-
-Suponha que temos um novo exemplo com os seguintes atributos:
-
-- Idade: Média
-- Renda: Baixa
-- Histórico de Crédito: Bom
-
-Vamos utilizar o algoritmo Naive Bayes para prever o risco de crédito para esse novo exemplo. Para isso, calculamos a probabilidade de pertencer a cada classe de risco de crédito com base nas probabilidades aprendidas.
-
-**Passo 4: Escolha da classe com maior probabilidade**
-
-Com as probabilidades calculadas, escolhemos a classe de risco de crédito que possui a maior probabilidade para o novo exemplo. Essa será a nossa predição.
