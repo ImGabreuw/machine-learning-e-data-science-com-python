@@ -6,7 +6,7 @@ A utilização do termo "forest" refere-se ao fato de que o algoritmo **cria vá
 
 O termo "random" destaca a característica única do Random Forest, que é a **aleatoriedade na seleção dos atributos para construir as árvores**. Essa aleatoriedade ajuda a evitar a criação de árvores altamente correlacionadas e a aumentar a diversidade do ensemble, resultando em modelos mais robustos e com melhor capacidade de generalização.
 
-A escolha aleatória de $K$ atributos para construir cada árvore ajuda a reduzir o viés e a variância do modelo, garantindo uma maior robustez e desempenho geral. As técnicas comuns para definir o valor de $K$ incluem o uso de um valor inteiro arbitrário, a raiz quadrada do número de atributos do conjunto de dados ou o logaritmo do número de atributos.
+A escolha aleatória de $K$ atributos para construir cada árvore ajuda a reduzir o viés e a variância do modelo, garantindo uma maior robustez e desempenho geral. As técnicas comuns para definir o valor de $K$ incluem o uso de um valor inteiro arbitrário, a raiz quadrada do número de atributos do conjunto de dados ou o logaritmo na base 2 do número de atributos.
 
 O Random Forest é amplamente utilizado em problemas de classificação e regressão em uma variedade de domínios, sendo uma escolha popular devido à sua eficiência, facilidade de uso e alta precisão. É especialmente útil em conjuntos de dados complexos e com muitos atributos, onde outras técnicas de aprendizado de máquina podem enfrentar dificuldades.
 
