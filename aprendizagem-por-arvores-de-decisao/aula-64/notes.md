@@ -1,6 +1,6 @@
 # Classificador base (majority learner) - base crédito
 
-O classificador base Majority Learner, também conhecido como classificador da maioria, é um método simples de classificação usado em problemas de aprendizado de máquina, principalmente quando se lida com conjuntos de dados desbalanceados. O princípio por trás do Majority Learner é bastante simples: ele atribui a classe mais frequente no conjunto de treinamento como a classe de predição para todos os exemplos de teste.
+O classificador base Majority Learner, também conhecido como classificador da maioria ou ZeroR, é um método simples de classificação usado em problemas de aprendizado de máquina, principalmente quando se lida com conjuntos de dados desbalanceados. O princípio por trás do Majority Learner é bastante simples: ele atribui a classe mais frequente no conjunto de treinamento como a classe de predição para todos os exemplos de teste.
 
 **Funcionamento do Majority Learner:**
 
