@@ -33,4 +33,9 @@ A escolha do valor de "k" é um hiperparâmetro importante no algoritmo kNN e po
 - A escolha inadequada do valor de "k" pode levar a resultados subótimos.
 
 **Quando usar o algoritmo kNN:**
-O algoritmo kNN é uma escolha razoável quando se tem um conjunto de dados relativamente pequeno e bem-estruturado, com atributos significativos e com boas práticas de pré-processamento, como normalização dos dados. Ele também pode ser útil quando não se conhece a estrutura ou a relação subjacente dos dados e se deseja uma abordagem de modelagem mais flexível. No entanto, para conjuntos de dados muito grandes ou com muitos atributos, ou quando a eficiência computacional é crucial, outras técnicas como árvores de decisão, SVM ou redes neurais podem ser preferíveis. É sempre importante testar e comparar diferentes algoritmos para encontrar o mais adequado para o problema em questão.
+
+O algoritmo kNN é uma escolha razoável quando se tem um conjunto de dados relativamente pequeno e bem-estruturado, com atributos significativos e com boas práticas de pré-processamento, como normalização dos dados. Ele também pode ser útil quando não se conhece a estrutura ou a relação subjacente dos dados e se deseja uma abordagem de modelagem mais flexível. 
+
+No entanto, para conjuntos de dados muito grandes ou com muitos atributos, ou quando a eficiência computacional é crucial, outras técnicas como árvores de decisão, SVM ou redes neurais podem ser preferíveis. É sempre importante testar e comparar diferentes algoritmos para encontrar o mais adequado para o problema em questão.
+
+Os sistemas de recomendação, como da Netflix, implementam o algoritmo kNN utilizando a técnica de filtragem colaborativa.
