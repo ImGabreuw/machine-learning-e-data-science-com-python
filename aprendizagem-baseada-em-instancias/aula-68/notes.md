@@ -4,7 +4,17 @@ O algoritmo k-Nearest Neighbors (kNN) é um método de aprendizado de máquina s
 
 > Esse algoritmo é classificado como um método preguiçoso (_lazy_), pois a generalização/previsão é feita somente quando uma nova instância precisa ser classificada.
 
-A ideia fundamental por trás do kNN é que objetos que estão próximos no espaço de atributos tendem a pertencer à mesma classe ou ter valores de saída semelhantes. Para fazer uma previsão, o algoritmo kNN procura pelos "k" vizinhos mais próximos do novo exemplo no conjunto de treinamento. Esses vizinhos podem ser determinados usando uma métrica de distância, como a distância euclidiana, que mede a proximidade entre os pontos no espaço de atributos.
+A ideia fundamental por trás do kNN é que objetos que estão próximos no espaço de atributos tendem a pertencer à mesma classe ou ter valores de saída semelhantes. Para fazer uma previsão, o algoritmo kNN procura pelos "k" vizinhos mais próximos do novo exemplo no conjunto de treinamento. Esses vizinhos podem ser determinados usando uma métrica de distância que mede a proximidade entre os pontos no espaço de atributos.
+
+As principais técnicas para o cálculo da distância são:
+
+- Distância euclidiana (mais utilizado)
+
+- Coeficiente de Pearson
+
+- Índice de Tanimoto
+
+- City Block
 
 O processo geral do algoritmo kNN é o seguinte:
 
@@ -23,18 +33,26 @@ A escolha do valor de "k" é um hiperparâmetro importante no algoritmo kNN e po
 **Vantagens do algoritmo kNN:**
 
 - Simplicidade e fácil implementação.
+
 - Funciona bem com dados de alta dimensionalidade.
+
 - É eficaz em problemas não lineares e pode capturar fronteiras de decisão complexas.
 
 **Limitações do algoritmo kNN:**
 
 - Sensível à escala dos atributos; é importante normalizar os dados antes de aplicar o kNN.
+
 - Pode ser computacionalmente caro para grandes conjuntos de treinamento, pois requer cálculos de distância para todos os pontos de treinamento.
+
 - A escolha inadequada do valor de "k" pode levar a resultados subótimos.
+
+  - Para valor de "k" pequeno, os dados com ruídos ou outliers podem prejudicar o resultado
+
+  - Para valor de "k" grande, o algoritmo tem a tendência de classificar a classe com mais elementos, causando overfitting.
 
 **Quando usar o algoritmo kNN:**
 
-O algoritmo kNN é uma escolha razoável quando se tem um conjunto de dados relativamente pequeno e bem-estruturado, com atributos significativos e com boas práticas de pré-processamento, como normalização dos dados. Ele também pode ser útil quando não se conhece a estrutura ou a relação subjacente dos dados e se deseja uma abordagem de modelagem mais flexível. 
+O algoritmo kNN é uma escolha razoável quando se tem um conjunto de dados relativamente pequeno e bem-estruturado, com atributos significativos e com boas práticas de pré-processamento, como normalização dos dados. Ele também pode ser útil quando não se conhece a estrutura ou a relação subjacente dos dados e se deseja uma abordagem de modelagem mais flexível.
 
 No entanto, para conjuntos de dados muito grandes ou com muitos atributos, ou quando a eficiência computacional é crucial, outras técnicas como árvores de decisão, SVM ou redes neurais podem ser preferíveis. É sempre importante testar e comparar diferentes algoritmos para encontrar o mais adequado para o problema em questão.
 
