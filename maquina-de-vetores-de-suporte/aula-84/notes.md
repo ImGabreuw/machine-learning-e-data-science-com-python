@@ -18,11 +18,15 @@ Além disso, o SVM usa a técnica conhecida como "kernel trick" para mapear os d
 
 ## **Vantagens**
 
-- Eficaz em espaços de alta dimensão.
+- Eficaz em base de dados de alta dimensão.
 
 - Pode lidar com dados não lineares usando kernels.
 
 - Eficiente em uso de memória devido à seleção de vetores de suporte.
+
+- Aprende conceitos não presentes nos dados originais
+
+- Mais fácil de utilizar comparado com redes neurais
 
 ## **Limitações**
 
