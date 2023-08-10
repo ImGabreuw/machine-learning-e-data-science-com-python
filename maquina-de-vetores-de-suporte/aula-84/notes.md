@@ -18,11 +18,15 @@ Além disso, o SVM usa a técnica conhecida como "kernel trick" para mapear os d
 
 ## **Vantagens**
 
-- Eficaz em espaços de alta dimensão.
+- Eficaz em base de dados de alta dimensão.
 
 - Pode lidar com dados não lineares usando kernels.
 
 - Eficiente em uso de memória devido à seleção de vetores de suporte.
+
+- Aprende conceitos não presentes nos dados originais
+
+- Mais fácil de utilizar comparado com redes neurais
 
 ## **Limitações**
 
@@ -31,5 +35,7 @@ Além disso, o SVM usa a técnica conhecida como "kernel trick" para mapear os d
 - Pode ser computacionalmente caro para grandes conjuntos de dados.
 
 - Pode ser desafiador escolher o kernel adequado.
+
+- Não é possível ter uma visualização do modelo resultante (denotado _black box_ ou caixa preta)
 
 Em resumo, o SVM é um algoritmo versátil e poderoso que é usado para classificação e regressão. Ele encontra um hiperplano (ou curva) que melhor separa ou se ajusta aos dados, buscando maximizar a margem entre as classes. É uma ferramenta valiosa para problemas complexos de aprendizado de máquina, especialmente quando os dados são desafiadores de serem separados linearmente.
