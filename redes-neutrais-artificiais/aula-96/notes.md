@@ -131,6 +131,6 @@ Vamos corrigir os pesos pegando como base no registro da 4º linha, pois foi ond
   peso(n + 1) = 0 + (0.1 \cdot 1 \cdot 1) = 0.1
   $$
 
-Após os ajuste de pesos a fim de reduzir ao máximo os erros, temos o seguinte conjunto de pesos para a rede neural:
+Após realizar os ajuste de pesos a fim de reduzir ao máximo os erros, temos o seguinte conjunto de pesos final para a rede neural:
 
 ![](./assets/ajuste-de-peso-final.png)
