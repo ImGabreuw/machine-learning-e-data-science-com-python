@@ -26,4 +26,6 @@ $$
 y = \frac{1}{1 + e^{-x}}
 $$
 
-Após o cálculo da função de ativação, temos o resultado de cada neurônio, agora basta realizar esse mesmo processo para obter o resultado final. 
+Com o resultado de cada neurônio, basta aplicar novamente a função soma e ativação para os valores obtidos na função sigmoid e assim obter o resultado final para o primeiro registro. 
+
+Você deve repetir todo o processo descrito acima para cada registro da tabela.
