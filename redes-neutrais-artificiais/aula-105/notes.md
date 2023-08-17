@@ -38,7 +38,13 @@ O processo de treinamento consiste em repetir as seguintes etapas:
 
 2. Calcular o valor da função de perda com base nas previsões e nos valores reais.
 
-3. Calcular os gradientes da função de perda em relação aos pesos (Backpropagation).
+3. Calcular os pesos
+
+   1. Aplicar derivada parcial no resultado obtido da função de ativação.
+
+   2. Calcular o delta
+
+   3. Calcular o gradiente descente
 
 4. Atualizar os pesos na direção oposta ao gradiente multiplicado por uma taxa de aprendizado.
 
