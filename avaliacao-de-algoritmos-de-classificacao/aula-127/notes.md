@@ -59,9 +59,9 @@ grid_search = GridSearchCV(model, param_grid, scoring='accuracy', cv=5)
 # Realizando a busca exaustiva
 grid_search.fit(X_train, y_train)
 
-# Obtendo os melhores hiperparâmetros e o melhor modelo
+# Obtendo os melhores hiperparâmetros e o melhor resultado
 best_params = grid_search.best_params_
-best_model = grid_search.best_estimator_
+best_score = grid_search.best_score_
 ```
 
 O `GridSearchCV` é uma abordagem eficiente para encontrar a combinação ideal de hiperparâmetros para um modelo, melhorando seu desempenho e evitando o ajuste excessivo (overfitting).
