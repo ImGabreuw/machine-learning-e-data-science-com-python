@@ -2,7 +2,9 @@
 
 A validação cruzada, também conhecida como _k-fold cross validation_, é uma técnica de avaliação de modelos que visa estimar o desempenho de um algoritmo de aprendizado de máquina de forma mais robusta e confiável. Ela é especialmente útil quando se deseja ter uma visão mais realista do desempenho do modelo em dados não vistos.
 
-A ideia principal do _k-fold cross validation_ é dividir o conjunto de dados em $k$ partes (chamadas "folds") de tamanho aproximadamente igual. O número $k$ é um hiperparâmetro que determina quantas vezes o processo de treinamento e avaliação será repetido, pois cada parte $k$ é testada. Cada parte ou fold é utilizada como conjunto de validação uma vez, enquanto as outras $k-1$ partes são usadas como conjunto de treinamento.
+A ideia principal do _k-fold cross validation_ é dividir o conjunto de dados em $k$ partes (chamadas "folds") de tamanho aproximadamente igual. O número $k$ é um hiperparâmetro que determina quantas vezes o processo de treinamento e avaliação será repetido, com isso haverá $k$ resultados (denotado por teste). Cada parte ou fold é utilizada como conjunto de validação uma vez, enquanto as outras $k-1$ partes são usadas como conjunto de treinamento.
+
+> O número de 30 testes é amplamente adotado na comunidade científica para comprovar a eficácia ou aprimoramento de modelos.
 
 O processo do _k-fold cross validation_ pode ser resumido em passos:
 
