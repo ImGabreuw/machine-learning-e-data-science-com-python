@@ -28,4 +28,17 @@ pickle.dump(reural_network_classifier, open('final_neural_network.sav', 'wb'))
 
 Neste exemplo, um modelo de rede neural é treinado usando o conjunto de dados de crédito, em seguida, é salvo em um arquivo chamado `final_neural_network.sav`. O arquivo é aberto em modo de gravação binária (`'wb'`) e a função `pickle.dump()` é usada para salvar o modelo no arquivo.
 
+Quando você precisar usar o modelo novamente, poderá carregá-lo da seguinte maneira:
+
+```python
+import pickle
+
+# Carregar o modelo treinado de um arquivo .sav
+with open('final_neural_network.sav', 'rb') as file:
+    loaded_model = pickle.load(file)
+
+# Usar o modelo carregado para fazer previsões
+predictions = loaded_model.predict(X_test)
+```
+
 Lembre-se de que ao usar a biblioteca `pickle`, você deve ter cuidado ao carregar modelos de fontes confiáveis, pois o processo de desserialização pode executar código malicioso incorporado no arquivo se ele não for proveniente de uma fonte confiável.
