@@ -2,6 +2,8 @@
 
 _Support Vector Regression_ (SVR) compartilha muitas das características das Máquinas de Vetores de Suporte (SVM) usadas em classificação, mas sua aplicação se torna mais complexa quando tratamos de valores numéricos, devido à variedade de possibilidades.
 
+Diferentemente de outros algoritmos como regressão linear, regressão com árvores de decisão e regressão com random forest, o SVR são sensíveis em relação a escala dos atributos, uma vez que ele não faz o escalonamento dos atributos automaticamente, é necessário realizar o tratamentos dos atributos antes de submeter o algoritmo na base de treinamento.
+
 O epsilon é um parâmetro crítico no SVR que controla a largura da "faixa de aceitação" ao redor da função de regressão. Ele é usado para penalizar o modelo durante o treinamento e é calculado com base na diferença entre as previsões do modelo ($\hat{y}$) e os valores reais ($y$). A escolha adequada de epsilon afeta como o modelo lida com erros de previsão.
 
 A ideia central por trás do SVR, semelhante à do SVM, é encontrar o melhor hiperplano de separação entre as classes. No entanto, quando lidamos com problemas que não podem ser linearmente separados, recorremos à técnica conhecida como "Kernel Tricks". Esta abordagem permite ao SVR modelar relações não lineares entre as variáveis, tornando-o versátil para lidar com uma ampla gama de problemas de regressão.
