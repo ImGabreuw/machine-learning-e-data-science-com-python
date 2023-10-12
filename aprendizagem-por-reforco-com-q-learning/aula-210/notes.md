@@ -12,7 +12,6 @@ Uma característica fundamental do Q-Learning é a exploração versus exploraç
 
 O Q-Learning é usado em uma variedade de aplicações, desde jogos de tabuleiro até controle de robôs e sistemas de recomendação. É um algoritmo poderoso e flexível que permite que os agentes aprendam a tomar decisões em ambientes complexos e desconhecidos.
 
-Agora, se você tiver alguma pergunta específica sobre o Q-Learning ou gostaria de saber mais detalhes sobre seu funcionamento, fique à vontade para perguntar.
 
 ## OpenAI Gym
 
